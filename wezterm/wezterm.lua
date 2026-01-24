@@ -210,7 +210,7 @@ config.initial_rows = 30
 config.scrollback_lines = 10000
 config.max_fps = 120
 config.switch_to_last_active_tab_when_closing_tab = true
--- config.window_decorations = "RESIZE"
+config.window_decorations = "RESIZE"
 config.enable_scroll_bar = true
 config.font = wezterm.font("IBM Plex Mono")
 if wezterm.target_triple == 'aarch64-apple-darwin' then
