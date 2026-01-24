@@ -52,7 +52,7 @@ Set-PSReadLineKeyHandler -Key Ctrl+RightArrow -Function ForwardWord
 if ($PSVersionTable.PSVersion.Major -gt 5) {
   Set-MarkdownOption -ItalicsForegroundColor "[3m"
 }
-Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
+# Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
 
 <# Import Completions #>
 if (Test-Path "~/.local/share/carapace.ps1" -PathType Leaf) {
